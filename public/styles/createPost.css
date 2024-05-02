@@ -1,0 +1,106 @@
+html,
+body,
+.container {
+  min-height: 100vh;
+  }
+
+@media (max-width: 1280px) {
+  .container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    }
+  }
+
+main {
+  position: relative;
+  width: 100vw;
+  background-color: #4F8335;
+  height: 100%;
+  text-align: center;
+  }
+
+.title {
+  text-align: start;
+  font-size: .875rem;
+  font-weight: 700;
+  color: #FFF;
+  padding: .875rem;
+  background-color: #305420;
+  border-top: 6px solid #3B6228;
+  }
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  }
+
+.posts {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #ECE5E2;
+  text-align: start;
+  }
+
+#createPostForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  }
+
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  }
+
+input {
+  width: 90%;
+  height: 2em;
+  }
+
+textarea {
+  width: 90%;
+  height: 20em;
+  resize: none;
+  }
+
+.form-submit {
+  width: fit-content;
+  height: fit-content;
+  }
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #FFF;
+  width: 30vw;
+  height: 4em;
+  font-size: 1.25rem;
+  text-align: center;
+  align-items: center;
+  column-count: 2;
+  background-color: #757575;
+  border-top: 4px solid #BABABA;
+  border-left: 4px solid #BABABA;
+  border-right: 4px solid #525252;
+  border-bottom: 4px solid #525252;
+  margin-bottom: 10px;
+  }
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #313131;
+  border-top: 4px solid #5A5A5A;
+  border-left: 4px solid #5A5A5A;
+  border-right: 4px solid #181818;
+  border-bottom: 4px solid #181818;
+  }

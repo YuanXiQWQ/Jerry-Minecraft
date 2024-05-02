@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <!--  ====Page====  -->
+  <title>Jerry's Minecraft world</title>
+  <link rel="icon" type="images/x-icon" href="/images/icon/YuanXi.ico">
+
+  <!--  ====Meta====  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jiarui Xing"/>
+
+  <!--  ====Script Libraries====  -->
+  <script defer src="/scripts/client.js"></script>
+  <script defer src="/scripts/createPost.js"></script>
+
+  <!--  ====Style Libraries====  -->
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/createPost.css">
+
+  <!--  ====Others Libraries====  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<!--  ====Header====  -->
+<div id="headerContainer"></div>
+
+<!--  ====Container====  -->
+<div class="container">
+
+  <aside>
+    <div id="navbarContainer"></div>
+  </aside>
+
+  <main>
+    <div class="post-container">
+      <div class="post-title title">
+        <span id="text-Post">Post</span>
+      </div>
+
+      <div class="posts">
+        <form id="createPostForm" action="/post-timeline" method="POST">
+          <div class="form-group">
+            <label for="postTitle"><span id="text-Title">Title:</span></label>
+            <input type="text" id="postTitle" name="title" required>
+          </div>
+          <div class="form-group">
+            <label for="postContent"><span id="text-Content">Content:</span></label>
+            <textarea id="postContent" name="content" rows="5" required></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="submit-btn"><span id="text-Post1">Post</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!--  ====Footer====  -->
+<div id="footerContainer"></div>
+</body>
+</html>

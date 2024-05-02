@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <!--  ====Page====  -->
+  <title>Jerry's Minecraft world</title>
+  <link rel="icon" type="images/x-icon" href="/images/icon/YuanXi.ico">
+
+  <!--  ====Meta====  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jiarui Xing"/>
+
+  <!--  ====Script Libraries====  -->
+  <script defer src="/scripts/client.js"></script>
+  <script defer src="/scripts/construction.js"></script>
+
+  <!--  ====Style Libraries====  -->
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/construction.css">
+
+  <!--  ====Others Libraries====  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+<!--  ====Header====  -->
+<div id="headerContainer"></div>
+
+<!--  ====Container====  -->
+<div class="container">
+  <aside>
+    <div id="navbarContainer"></div>
+  </aside>
+
+  <main>
+    <section class="section">
+      <h3><span id="text-CurrentInventoryListOfArchivalBuildings"></span></h3>
+      <div id="constructionListContainer"></div>
+    </section>
+
+    <form id="addConstructionForm">
+      <!-- Name -->
+      <label for="name"></label>
+      <input type="text" id="name" placeholder="Name" required>
+      <!-- Status -->
+      <label for="status"></label>
+      <input type="text" id="status" placeholder="Status" required>
+      <!-- Registration Number -->
+      <label for="registrationNumber"></label>
+      <input type="text" id="registrationNumber"
+        placeholder="Registration Number"
+        pattern="^[A-Z]{2}\d{8}[A-Z](_\d{2})?$" required>
+      <!-- Registration Event-->
+      <label for="registrationEvent"></label>
+      <input type="text" id="registrationEvent" placeholder="Registration Event"
+        required>
+      <!-- Location-->
+      <label for="location"></label>
+      <input type="text" id="location" placeholder="Location" required>
+      <!-- Add Construction-->
+      <button id="addConstructionBtn" type="submit"><span id="text-AddConstruction"></span></button>
+    </form>
+
+  </main>
+</div>
+
+<!--  ====Footer====  -->
+<div id="footerContainer"></div>
+</body>
+</html>

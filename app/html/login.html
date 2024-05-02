@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <!--  ====Page====  -->
+  <title>Jerry's Minecraft world</title>
+  <link rel="icon" type="images/x-icon" href="/images/icon/YuanXi.ico">
+
+  <!--  ====Meta====  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jiarui Xing"/>
+
+  <!--  ====Script Libraries====  -->
+  <script defer src="/scripts/client.js"></script>
+  <script defer src="/scripts/login.js"></script>
+
+  <!--  ====Style Libraries====  -->
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/login.css">
+
+  <!--  ====Others Libraries====  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<!--  ====Header====  -->
+<div id="headerContainer"></div>
+
+<!--  ====Container====  -->
+<div class="container">
+
+  <aside>
+    <div id="navbarContainer"></div>
+
+    <section class="aside-introduce">
+      <h2><span id="text-Introduce"></span></h2>
+      <p class="introduce-info">
+        <span id="text-Introduce-info"></span>
+      </p>
+      <a class="introduce-anchor" href="https://en.wikipedia.org/wiki/Minecraft" target="_blank">
+        <span id="text-SeeMore"></span>
+      </a>
+    </section>
+  </aside>
+
+  <main>
+    <div id="loginContainer">
+
+      <div class="innerContext" id="loginOrRegister">
+
+        <div class="innerTitle">
+          <span id="text-LoginOrRegister"></span>
+        </div>
+
+        <div class="innerForm loginOrRegister-btn">
+          <button id="loginBtn">
+            <span id="text-Login"></span>
+          </button>
+          <button id="registerBtn">
+            <span id="text-Register"></span>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="innerContext hidden" id="loginForm">
+
+        <div class="innerTitle">
+          <span id="text-Login1"></span>
+        </div>
+
+        <div class="innerForm">
+          <form action="/user-login" method="POST">
+            <label for="login-username"><span class="black" id="text-LoginUsername"></span></label>
+            <input type="text" id="login-username" name="username" required>
+            <label for="login-password"><span class="black" id="text-LoginPassword"></span></label>
+            <input type="password" id="login-password" name="password" required>
+            <button id="userLoginBtn">
+              <span id="text-Login2"></span>
+            </button>
+          </form>
+          <div class="dont-have-account">
+            <span class="black" id="text-Dont-have-account"></span>
+            <span class="activeSpan" id="text-RegisterNow"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="innerContext hidden" id="registerForm">
+
+        <div class="innerTitle">
+          <span id="text-Register1"></span>
+        </div>
+
+        <div class="innerForm">
+          <form action="/user-register" method="POST">
+            <label for="register-email"><span class="black" id="text-RegisterEmail"></span></label>
+            <input type="email" id="register-email" name="email" required>
+            <label for="register-username"><span class="black" id="text-RegisterUsername"></span></label>
+            <input type="text" id="register-username" name="username" required>
+            <label for="register-password"><span class="black" id="text-RegisterPassword"></span></label>
+            <input type="password" id="register-password" name="password" required>
+            <label for="confirmPassword"><span class="black" id="text-RegisterConfirmPassword"></span></label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <button id="userRegisterBtn">
+              <span id="text-Register2"></span>
+            </button>
+          </form>
+          <div class="dont-have-account">
+            <span class="black" id="text-Have-account"></span>
+            <span class="activeSpan" id="text-LoginNow"></span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<!--  ====Footer====  -->
+<div id="footerContainer"></div>
+</body>
+</html>

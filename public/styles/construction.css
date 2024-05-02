@@ -1,0 +1,11 @@
+.section {
+  background-image: url(../images/background/Background.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+#addConstructionBtn {
+  background-color: #81C15A;
+  color: white;
+  }

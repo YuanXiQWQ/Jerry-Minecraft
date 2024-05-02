@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <!--  ====Page====  -->
+  <title>Jerry's Minecraft world</title>
+  <link rel="icon" type="images/x-icon" href="/images/icon/YuanXi.ico">
+
+  <!--  ====Meta====  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jiarui Xing"/>
+
+  <!--  ====Script Libraries====  -->
+  <script defer src="/scripts/client.js"></script>
+
+  <!--  ====Style Libraries====  -->
+  <link rel="stylesheet" href="/styles/style.css">
+
+  <!--  ====Others Libraries====  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+<!--  ====Header====  -->
+<div id="headerContainer"></div>
+
+<!--  ====Container====  -->
+<div class="container">
+
+  <aside>
+    <div id="navbarContainer"></div>
+
+    <section class="aside-introduce">
+      <h2><span id="text-Introduce"></span></h2>
+      <p class="introduce-info">
+        <span id="text-Introduce-info"></span>
+      </p>
+      <a class="introduce-anchor" href="https://en.wikipedia.org/wiki/Minecraft" target="_blank">
+        <span id="text-SeeMore"></span>
+      </a>
+    </section>
+  </aside>
+
+  <main>
+    <section class="section">
+      <div class="section-title">
+        <div class="section-title-item">
+          <img class="section-title-icon icon" src="/images/icon/Map.webp" alt="Map">
+          <h3 class="section-title-info">
+            <span id="text-WorldCapture"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="section-imageGallery">
+        <div class="imageGallery-show">
+          <!-- brother elements with .imageGallery-image -->
+          <input class="btns-radio" type="radio" id="img1" name="gallery" checked>
+          <input class="btns-radio" type="radio" id="img2" name="gallery">
+          <input class="btns-radio" type="radio" id="img3" name="gallery">
+          <input class="btns-radio" type="radio" id="img4" name="gallery">
+
+          <figure class="imageGallery-image section-centre">
+            <label class="images-img" for="img1">
+              <img src="/images/article-imgs/image1.png" alt="Image 1"></label>
+            <label class="images-img" for="img2">
+              <img src="/images/article-imgs/image2.png" alt="Image 2"></label>
+            <label class="images-img" for="img3">
+              <img src="/images/article-imgs/image3.png" alt="Image 3"></label>
+            <label class="images-img" for="img4">
+              <img src="/images/article-imgs/image4.png" alt="Image 4"></label>
+          </figure>
+        </div>
+
+        <!-- labels as btn -->
+        <div class="imageGallery-btns section-centre">
+          <label for="img1"><span id="text-Base"></span></label>
+          <label for="img2"><span id="text-Garden"></span></label>
+          <label for="img3"><span id="text-LivingRoom"></span></label>
+          <label for="img4"><span id="text-EndPortal"></span></label>
+        </div>
+      </div>
+      <form class="section-search">
+        <input class="search-input section-centre" type="search" id="site-search" name="question"
+          aria-label="Search through site content"
+          placeholder="Actually you will not search anything from here">
+        <button class="search-btns" type="submit">
+          <img class="btns-icon" id="Ender_Pearl" src="/images/icon/Ender_Pearl.webp" alt="Ender_Pearl">
+          <img class="btns-icon" id="Eye_of_Ender" src="/images/icon/Eye_of_Ender.webp" alt="Eye_of_Ender">
+        </button>
+      </form>
+    </section>
+
+    <article class="article">
+      <div class="article-item">
+        <figure class="article-item-figure">
+          <img class="article-item-img" src="/images/article-imgs/Base.png" alt="YuanXi's Base">
+          <figcaption>
+            <span id="text-MyBase"></span>
+          </figcaption>
+        </figure>
+        <div class="article-item-info">
+          <h3 class="article-item-title">
+            <span id="text-StoryAboutThisWorld"></span>
+          </h3>
+          <p>
+            <span id="text-AboutThisWorld"></span>
+          </p>
+        </div>
+      </div>
+      <div class="article-item">
+        <figure class="article-item-figure">
+          <img class="article-item-img" src="/images/article-imgs/Inventory.png" alt="YuanXi's Inventory">
+          <figcaption>
+            <span id="text-Inventory"></span>
+          </figcaption>
+        </figure>
+        <div class="article-item-info">
+          <h3 class="article-item-title">
+            <span id="text-HowIsMyInventory"></span>
+          </h3>
+          <p>
+            <span id="text-InventoryInfo"></span>
+          </p>
+        </div>
+      </div>
+      <div class="article-item">
+        <figure class="article-item-figure">
+          <img class="article-item-img" src="/images/article-imgs/Information1.png" alt="Information">
+          <figcaption>
+            <span id="text-OnlineTime"></span>
+          </figcaption>
+        </figure>
+        <div class="article-item-info">
+          <h3 class="article-item-title">
+            <span id="text-HowLongIsTheOnlineDurationEachTime"></span>
+          </h3>
+          <p>
+            <span id="text-OnlineTimeInfo"></span>
+          </p>
+        </div>
+      </div>
+      <div class="article-item">
+        <figure class="article-item-figure">
+          <img class="article-item-img" src="/images/article-imgs/Information2.png" alt="Information">
+          <figcaption>
+            <span id="text-Information"></span>
+          </figcaption>
+        </figure>
+        <div class="article-item-info">
+          <h3 class="article-item-title">
+            <span id="text-SomeStatisticalInformation"></span>
+          </h3>
+          <div id="article-item-list">
+            <div class="article-item-info-content">
+              <h4><span id="text-GameDuration"></span></h4>
+              2408.88 h
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-Deaths"></span></h4>
+              3
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-SinceLastDeath"></span></h4>
+              2204.16 h
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-MobKills"></span></h4>
+              496,048
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-DamageDealt"></span></h4>
+              515,563.90
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-DistanceWalked"></span></h4>
+              4,594.48 km
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-ElytraGlidingDistance"></span></h4>
+              8,768.16 km
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-Jumps"></span></h4>
+              401,136
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-TotalBlocksPlaced"></span></h4>
+              905,753
+            </div>
+            <div class="article-item-info-content">
+              <h4><span id="text-TotalBlocksMined"></span></h4>
+              809,160
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+</div>
+
+<!--  ====Footer====  -->
+<div id="footerContainer"></div>
+</body>
+</html>

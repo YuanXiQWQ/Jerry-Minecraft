@@ -1,0 +1,130 @@
+{
+  "buildings": [
+    {
+      "Name": "史莱姆农场一期",
+      "Status": "停用",
+      "RegistrationNumber": "ID20050701M_01",
+      "RegistrationEvent": "2020.5.7",
+      "Location": "-215 65 -364"
+    },
+    {
+      "Name": "刷铁轨机",
+      "Status": "正常使用",
+      "RegistrationNumber": " ID20050702S",
+      "RegistrationEvent": "2020.5.7",
+      "Location": "-222 66 -358"
+    },
+    {
+      "Name": " 村民交易所及农、牧场",
+      "Status": "正常使用",
+      "RegistrationNumber": " AC20051001M",
+      "RegistrationEvent": " 2020.5.10",
+      "Location": " -157 66 -352"
+    },
+    {
+      "Name": " 刷铁机",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID20051002S",
+      "RegistrationEvent": "2020.5.10",
+      "Location": " -144 66 -373"
+    },
+    {
+      "Name": "猪人塔一期",
+      "Status": "停用",
+      "RegistrationNumber": "ID20051301L_01",
+      "RegistrationEvent": "2020.5.10",
+      "Location": "-7 128 -50"
+    },
+    {
+      "Name": "刷石机及自动熔炉",
+      "Status": "正常使用",
+      "RegistrationNumber": " ID20070401M",
+      "RegistrationEvent": " 2020.7.4",
+      "Location": "-169 69 -270"
+    },
+    {
+      "Name": "女巫塔",
+      "Status": "正常使用",
+      "RegistrationNumber": " ID20080101M",
+      "RegistrationEvent": " 2020.8.1",
+      "Location": "184 182 -260"
+    },
+    {
+      "Name": "李泳塔",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID20080201M",
+      "RegistrationEvent": "2020.8.2",
+      "Location": " 858 203 -651"
+    },
+    {
+      "Name": "凋零骷髅塔",
+      "Status": "正常使用",
+      "RegistrationNumber": " ID20080301X",
+      "RegistrationEvent": " 2020.8.3",
+      "Location": "519 26 -838"
+    },
+    {
+      "Name": "烈焰人刷怪笼",
+      "Status": "正常使用",
+      "RegistrationNumber": " ID20042801M",
+      "RegistrationEvent": "2020.5.10",
+      "Location": "337 47 -130"
+    },
+    {
+      "Name": "铸币厂",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID21041101M",
+      "RegistrationEvent": "2021.4.11",
+      "Location": "1205 203 -1707"
+    },
+    {
+      "Name": " 王八蛋农场",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID21041801M",
+      "RegistrationEvent": "2021.4.18",
+      "Location": " -103 81 -406"
+    },
+    {
+      "Name": "酿药机",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID21050301M",
+      "RegistrationEvent": " 2021.5.3",
+      "Location": "-158 56 -373"
+    },
+    {
+      "Name": "雷电法王塔",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID21080201X",
+      "RegistrationEvent": "2021.8.2",
+      "Location": "1267 141 -2385"
+    },
+    {
+      "Name": "刷冰机一期",
+      "Status": "停用",
+      "RegistrationNumber": "ID20042602M_01",
+      "RegistrationEvent": "2020.5.10",
+      "Location": " -152 95 -229"
+    },
+    {
+      "Name": "骷髅刷怪笼",
+      "Status": "正常使用",
+      "RegistrationNumber": "ID21110701M",
+      "RegistrationEvent": "2021.11.7",
+      "Location": " -179 66 -246"
+    },
+    {
+      "Name": "YuanXiQWQ Jiarui",
+      "Status": "1",
+      "RegistrationNumber": "ID21110701M",
+      "RegistrationEvent": "1",
+      "Location": "1"
+    },
+    {
+      "Name": "Jiarui Xing",
+      "Status": "1234",
+      "RegistrationNumber": "ID21110701M",
+      "RegistrationEvent": "1234",
+      "Location": "1234"
+    }
+  ]
+}
